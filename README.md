@@ -5,8 +5,8 @@
 
 ## Sumário
 
-- [0. Introdução aos KPIs](#0-introdução-aos-kpis)
-- [00. Perguntas Norteadoras](#00-perguntas-norteadoras)
+- [0. Introdução aos KPIs](#introdução-aos-kpis)
+- [Perguntas Iniciais](#Perguntas-Iniciais)
 - [1. KPIs de Rentabilidade](#1-kpis-de-rentabilidade)
 - [2. KPIs de Liquidez](#2-kpis-de-liquidez)
 - [3. KPIs de Eficiência](#3-kpis-de-eficiência)
@@ -16,7 +16,7 @@
 
 ---
 
-# 0. Introdução aos KPIs
+# Introdução aos KPIs
 
 **KPI — Key Performance Indicator (Indicador-Chave de Desempenho)**
 
@@ -40,7 +40,7 @@ Neste manual, o foco será principalmente em **Finanças e Operações**.
 
 ---
 
-# 00. Perguntas Norteadoras
+# Perguntas iniciais
 
 ## O que são KPIs Financeiros?
 
