@@ -5,7 +5,7 @@
 
 ## Sumário
 
-- [0. Introdução aos KPIs](#introdução-aos-kpis)
+- [Introdução aos KPIs](#introdução-aos-kpis)
 - [Perguntas Iniciais](#Perguntas-Iniciais)
 - [1. KPIs de Rentabilidade](#1-kpis-de-rentabilidade)
 - [2. KPIs de Liquidez](#2-kpis-de-liquidez)
