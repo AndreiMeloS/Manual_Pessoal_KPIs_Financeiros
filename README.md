@@ -15,7 +15,39 @@
 - [6. Como levar os KPIs para Power BI e Excel](#6-como-levar-os-kpis-para-power-bi-e-excel)
 
 ---
+# Resumo dos KPIs desenvolvidos
 
+| Nome do KPI | Grupo | Definição breve do KPI | Formas de visualização no Power BI |
+|---|---|---|---|
+| **Margem de Lucro Bruto** | Rentabilidade | Mostra quanto sobra da receita após os custos diretamente ligados aos produtos/serviços vendidos. | **Card**, linha de evolução, colunas por produto/segmento, **Waterfall** |
+| **Margem de Lucro Líquido** | Rentabilidade | Mostra quanto da receita se transforma em lucro líquido depois de custos, despesas, resultado financeiro e impostos. | **Card**, linha, gráfico combinado Receita x Margem, **Waterfall** |
+| **ROI** | Rentabilidade | Mede o retorno obtido em relação ao investimento realizado. | **Card**, barras por projeto, linha temporal, **Scatter** Investimento x Retorno |
+| **Lucratividade** | Rentabilidade | Mostra quanto da receita se transforma em lucro líquido. | **Card**, linha temporal, colunas por período/segmento |
+| **Margem de Contribuição** | Rentabilidade | Mostra quanto sobra da receita após custos e despesas variáveis para cobrir custos fixos e gerar lucro. | **Card**, barras por produto, **Waterfall**, Scatter Volume x Margem |
+| **ROE** | Rentabilidade | Mede o retorno gerado sobre o patrimônio líquido da empresa. | **Card**, linha de evolução, colunas por período/empresa |
+| **ROA** | Rentabilidade | Mede o retorno gerado em relação aos ativos da empresa. | **Card**, linha de evolução, colunas por período/empresa |
+| **EBITDA** | Rentabilidade | Mede o resultado operacional antes de juros, impostos, depreciação e amortização. | **Card**, linha mensal, colunas por unidade/segmento, **Waterfall** |
+| **Margem EBITDA** | Rentabilidade | Mostra quanto da receita representa o EBITDA. | **Card**, linha temporal, colunas por segmento, gráfico combinado |
+| **Liquidez Corrente** | Liquidez | Mede a capacidade de cobrir obrigações de curto prazo com ativos de curto prazo. | **Card**, linha de evolução, colunas por empresa/unidade |
+| **Liquidez Seca** | Liquidez | Mede a capacidade de pagamento de curto prazo desconsiderando os estoques. | **Card**, linha, colunas comparativas |
+| **Liquidez Imediata** | Liquidez | Mede a capacidade de pagar obrigações de curto prazo utilizando disponibilidades imediatas. | **Card**, linha de evolução, colunas comparativas |
+| **Liquidez Geral** | Liquidez | Avalia a capacidade de pagamento considerando ativos e obrigações de curto e longo prazo. | **Card**, linha, colunas comparativas |
+| **Produtividade da Mão de Obra** | Eficiência | Mede a produção ou resultado gerado em relação aos recursos humanos utilizados. | **Card**, linha temporal, barras por equipe/unidade, **Scatter** |
+| **Giro de Estoque** | Eficiência | Mede quantas vezes o estoque é renovado em determinado período. | **Card**, linha, barras por produto/categoria, **Heatmap** |
+| **Dias de Estoque** | Eficiência | Estima por quantos dias o estoque atual consegue atender ao consumo/vendas. | **Card**, linha, barras por produto, **Heatmap** |
+| **DSO / Prazo Médio de Recebimento** | Eficiência | Mede quantos dias, em média, a empresa leva para receber suas vendas a prazo. | **Card**, linha, barras por cliente, **Aging**, matriz |
+| **Inadimplência** | Eficiência / Crédito | Mede o volume ou percentual de valores vencidos e não recebidos. | **Card**, linha, barras por cliente, **Aging**, matriz por faixa de atraso |
+| **Taxa de Utilização da Capacidade** | Eficiência | Mede quanto da capacidade produtiva disponível está sendo utilizada. | **Gauge**, **Card**, linha, barras por unidade |
+| **Índice de Endividamento** | Alavancagem | Mede o nível de capital de terceiros em relação ao capital próprio. | **Card**, linha de evolução, colunas, **Waterfall** da dívida |
+| **Dívida Líquida / EBITDA** | Alavancagem | Relaciona a dívida líquida com o EBITDA, ajudando a acompanhar o nível de alavancagem. | **Card**, linha temporal, colunas comparativas |
+| **Lucro por Ação (LPA/EPS)** | Valuation | Mostra quanto do lucro corresponde a cada ação. | **Card**, linha temporal, colunas |
+| **P/L (Preço/Lucro)** | Valuation | Compara o preço da ação com o lucro gerado por ação. | **Card**, linha temporal, Scatter |
+| **Dividend Yield** | Valuation | Mostra o dividendo distribuído em relação ao preço da ação. | **Card**, linha, colunas comparativas |
+| **Dividendos por Ação (DPA)** | Valuation | Mostra quanto foi distribuído em dividendos para cada ação. | **Card**, linha, colunas |
+| **Free Cash Flow (FCF)** | Valuation / Caixa | Mede o caixa livre gerado após os investimentos necessários, conforme a metodologia utilizada. | **Card**, linha temporal, **Waterfall**, Orçado x Realizado |
+| **MVA** | Valuation | Mede a diferença entre o valor de mercado da empresa e o capital investido. | **Card**, linha temporal, colunas comparativas |
+
+---
 # Introdução aos KPIs
 
 **KPI — Key Performance Indicator (Indicador-Chave de Desempenho)**
