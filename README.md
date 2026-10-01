@@ -13,6 +13,8 @@
 - [4. KPIs de Alavancagem](#4-kpis-de-alavancagem)
 - [5. KPIs de Valuation](#5-kpis-de-valuation)
 - [6. Como levar os KPIs para Power BI e Excel](#6-como-levar-os-kpis-para-power-bi-e-excel)
+- [7. Conceitos importantes](#7-conceitos-importantes)
+
 
 ---
 # Resumo dos KPIs desenvolvidos
@@ -877,8 +879,21 @@ Ferramentas principais:
 **Base de dados → Tratamento → Cálculo → Tabela dinâmica → Dashboard**
 
 ---
+# 7. Conceitos importantes
 
-# 7. Estrutura mental para qualquer KPI
+## Budget
+
+## PNL
+
+## Fechamento / Closing
+
+## Validar base do ERP
+
+## Comparar balancetes x ERP base
+
+
+---
+# 8. Estrutura mental para qualquer KPI
 
 Quando encontrar um novo indicador, quero responder:
 
@@ -913,7 +928,7 @@ O KPI precisa levar a uma decisão.
 
 ---
 
-# 8. Fontes de dados que quero conhecer melhor
+# 9. Fontes de dados que quero conhecer melhor
 
 | Informação | Área/Fonte |
 |---|---|
@@ -935,7 +950,7 @@ O KPI precisa levar a uma decisão.
 
 ---
 
-# 9. Modelo de análise que quero aplicar
+# 10. Modelo de análise que quero aplicar
 
 **Dado**
 
