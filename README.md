@@ -948,7 +948,78 @@ O comentário não inventa uma causa para a diferença. Ele apresenta o fato e i
 
 **Aprendizado principal:** o book não é apenas uma apresentação de números. É uma ferramenta para explicar o desempenho financeiro da empresa.
 
-## Budget
+## 2. Budget x Forecast x Realizado
+
+Esses três conceitos estão conectados e formam uma das bases do trabalho de FP&A. Cada um responde a uma pergunta diferente.
+
+| Conceito | Pergunta principal | Significado |
+|---|---|---|
+| **Budget (orçamento)** | O que planejamos gastar ou receber? | Plano financeiro aprovado para determinado período, construído a partir de premissas de receita, custos, despesas, investimentos e metas. |
+| **Forecast (previsão atualizada)** | Considerando o que já aconteceu, quanto esperamos gastar ou receber? | Projeção revisada com base nos resultados realizados, nas novas informações e nas premissas atualizadas. Pode mudar durante o ano. |
+| **Realizado** | Quanto efetivamente foi registrado no período? | Resultado apurado a partir dos registros financeiros e contábeis validados. Para o reporte, deve-se utilizar a versão oficial do fechamento. |
+
+### Exemplo prático: orçamento de despesas de marketing
+
+Imagine que a área de Marketing tenha planejado investir R$ 120 mil em campanhas durante o ano. No planejamento, a despesa foi distribuída entre os meses. Em março, houve uma campanha adicional e, em abril, uma renegociação com a agência.
+
+| Mês | Budget | Forecast atualizado | Realizado |
+|---|---:|---:|---:|
+| Janeiro | R$ 10 mil | R$ 10 mil | R$ 9 mil |
+| Fevereiro | R$ 10 mil | R$ 10 mil | R$ 11 mil |
+| Março | R$ 10 mil | R$ 15 mil | R$ 16 mil |
+| Abril | R$ 10 mil | R$ 8 mil | Ainda não fechado |
+
+Os valores são ilustrativos.
+
+Em janeiro, a empresa gastou R$ 9 mil, embora tivesse planejado R$ 10 mil. Em fevereiro, gastou R$ 11 mil, ultrapassando o orçamento mensal em R$ 1 mil.
+
+Em março, a equipe revisou a previsão para R$ 15 mil devido à campanha adicional, mas o gasto final chegou a R$ 16 mil.
+
+Em abril, a previsão foi reduzida para R$ 8 mil por conta da renegociação. Como abril ainda não foi fechado, esse valor é uma expectativa, não um resultado realizado.
+
+**O ponto central:** o Budget registra o plano aprovado; o Forecast registra a expectativa mais atual; e o Realizado mostra o que aconteceu.
+
+O Budget não deve ser sobrescrito para fazer os números parecerem alinhados ao resultado. Ele precisa permanecer disponível como referência de comparação.
+
+### O que é o plano orçamentário com rateio?
+
+O plano orçamentário é mais do que uma lista de despesas. É a distribuição do planejamento financeiro entre períodos, áreas, contas contábeis, centros de custo e, conforme a estrutura da empresa, projetos ou unidades de negócio.
+
+O **rateio** é a distribuição de um valor entre diferentes áreas ou objetos de custo, seguindo um critério definido.
+
+Imagine que a empresa tenha uma despesa anual de R$ 120 mil com uma ferramenta de software utilizada por três departamentos:
+
+| Área | Critério de rateio | Participação | Valor mensal |
+|---|---|---:|---:|
+| Comercial | Quantidade de usuários | 50% | R$ 5.000 |
+| Marketing | Quantidade de usuários | 30% | R$ 3.000 |
+| Financeiro | Quantidade de usuários | 20% | R$ 2.000 |
+| **Total** | | **100%** | **R$ 10.000** |
+
+Nesse exemplo, o rateio é feito conforme a quantidade de usuários de cada departamento. Em uma empresa real, o critério pode ser quantidade de funcionários, utilização efetiva, área ocupada, receita, transações ou outro direcionador apropriado.
+
+A escolha precisa fazer sentido para a despesa. Não seria adequado, por exemplo, distribuir automaticamente todos os custos de tecnologia proporcionalmente à receita se o consumo do serviço for muito diferente entre os departamentos.
+
+### Como isso aparece na rotina do assistente ou estagiário?
+
+Você pode receber uma planilha de orçamento com as seguintes colunas:
+
+- Conta contábil;
+- Centro de custo;
+- Departamento;
+- Mês;
+- Valor orçado;
+- Responsável pela despesa.
+
+Sua tarefa pode ser conferir se os valores foram distribuídos corretamente, verificar se o rateio totaliza 100%, validar se os centros de custo existem e comparar o orçamento com o que foi registrado no ERP.
+
+Se o orçamento de Marketing prevê R$ 3 mil por mês para a ferramenta, mas o ERP apresenta R$ 5 mil como despesa de Marketing, você precisa investigar. Pode ter ocorrido uma mudança no rateio, um lançamento no centro de custo errado, uma cobrança adicional ou uma diferença de competência.
+
+Não se deve simplesmente alterar a planilha para fazê-la bater com o ERP. Primeiro é preciso identificar a causa da diferença e validar o tratamento correto com o responsável.
+
+**Importante:** rateio não é necessariamente pagamento. Se uma despesa de R$ 10 mil for redistribuída entre três departamentos, o custo total da companhia continua sendo R$ 10 mil. O que muda é a distribuição gerencial desse custo.
+
+**Aprendizado principal:** o Budget organiza o plano financeiro; o Forecast atualiza a expectativa; o Realizado mostra o resultado; e o rateio permite visualizar a responsabilidade por custos e despesas.
 
 ## PNL
 
