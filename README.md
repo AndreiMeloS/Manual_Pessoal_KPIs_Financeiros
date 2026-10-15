@@ -15,13 +15,13 @@
 - [6. Como levar os KPIs para Power BI e Excel](#6-como-levar-os-kpis-para-power-bi-e-excel)
 - [7. Conceitos importantes](#7-conceitos-importantes)
     - [7.1 Book de resultados da companhia](#71-book-de-resultados-da-companhia)
-    - [7.2 Budget x Forecast x Realizado e plano orçamentário com rateio](#2-budget-x-forecast-x-realizado)
-    - [7.3 Real x Orçado x Ano Anterior](#3-real-x-orçado-x-ano-anterior)
-    - [7.4 P&L ou PnL — Profit and Loss Statement](#4-pl-ou-pnl--profit-and-loss-statement)
-    - [7.5 Fechamento mensal ou Closing](#5-fechamento-mensal-ou-closing)
-    - [7.6 Processo de validar a base do ERP](#6-processo-de-validar-a-base-do-erp)
-    - [7.7 Balancete x Base do ERP](#7-balancete-x-base-do-erp)
-    - [7.8 Como todos esses conceitos se conectam no dia a dia](#8-como-todos-esses-conceitos-se-conectam-no-dia-a-dia)
+    - [7.2 Budget x Forecast x Realizado e plano orçamentário com rateio](#72-budget-x-forecast-x-realizado)
+    - [7.3 Real x Orçado x Ano Anterior](#73-real-x-orçado-x-ano-anterior)
+    - [7.4 P&L ou PnL — Profit and Loss Statement](#74-pl-ou-pnl--profit-and-loss-statement)
+    - [7.5 Fechamento mensal ou Closing](#75-fechamento-mensal-ou-closing)
+    - [7.6 Processo de validar a base do ERP](#76-processo-de-validar-a-base-do-erp)
+    - [7.7 Balancete x Base do ERP](#77-balancete-x-base-do-erp)
+    - [7.8 Como todos esses conceitos se conectam no dia a dia](#78-como-todos-esses-conceitos-se-conectam-no-dia-a-dia)
 
 
 
