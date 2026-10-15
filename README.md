@@ -23,6 +23,26 @@
     - 7.7 [Balancete x Base do ERP](#7-balancete-x-base-do-erp)
     - 7.8 [Como todos esses conceitos se conectam no dia a dia](#8-como-todos-esses-conceitos-se-conectam-no-dia-a-dia)
 
+- Introdução aos KPIs
+- Perguntas Iniciais
+- 1. KPIs de Rentabilidade
+- 2. KPIs de Liquidez
+- 3. KPIs de Eficiência
+- 4. KPIs de Alavancagem
+- 5. KPIs de Valuation
+- 6. Como levar os KPIs para Power BI e Excel
+- 7. Conceitos importantes
+    - 7.1 Book de resultados da companhia
+    - 7.2 Budget x Forecast x Realizado e plano orçamentário com rateio
+    - 7.3 Real x Orçado x Ano Anterior
+    - 7.4 P&L ou PnL — Profit and Loss Statement
+    - 7.5 Fechamento mensal ou Closing
+    - 7.6 Processo de validar a base do ERP
+    - 7.7 Balancete x Base do ERP
+    - 7.8 Como todos esses conceitos se conectam no dia a dia
+
+
+
 ---
 # Resumo dos KPIs desenvolvidos
 
