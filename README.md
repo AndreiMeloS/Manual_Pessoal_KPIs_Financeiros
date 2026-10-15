@@ -948,7 +948,7 @@ O comentário não inventa uma causa para a diferença. Ele apresenta o fato e i
 
 **Aprendizado principal:** o book não é apenas uma apresentação de números. É uma ferramenta para explicar o desempenho financeiro da empresa.
 
-## 2. Budget x Forecast x Realizado
+## 7.2. Budget x Forecast x Realizado
 
 Esses três conceitos estão conectados e formam uma das bases do trabalho de FP&A. Cada um responde a uma pergunta diferente.
 
