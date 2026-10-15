@@ -881,6 +881,73 @@ Ferramentas principais:
 ---
 # 7. Conceitos importantes
 
+## 7.1. Book de resultados da companhia
+
+### O que é?
+
+O *book de resultados* é uma apresentação gerencial que reúne os principais números da empresa em determinado período, geralmente um mês, trimestre ou acumulado do ano.
+
+Na prática, é uma forma de transformar uma grande quantidade de dados financeiros em uma história que a diretoria consiga entender: **quanto vendemos, quanto gastamos, quanto ganhamos, onde ficamos acima ou abaixo do esperado e por que isso aconteceu?**
+
+Não basta colocar tabelas e gráficos em um PowerPoint. O objetivo é explicar o resultado e ajudar a gestão a decidir o que fazer a seguir.
+
+### Exemplo prático
+
+Imagine que você trabalha no FP&A de uma empresa de relógios e acabou de receber os resultados de setembro. A diretoria quer saber:
+
+- A receita ficou dentro do orçamento?
+- O custo dos produtos vendidos aumentou proporcionalmente às vendas?
+- As despesas comerciais cresceram?
+- A margem de lucro melhorou ou piorou?
+- O que explica a diferença entre o resultado esperado e o realizado?
+
+O assistente ou estagiário pode ajudar a atualizar as bases, conferir os números, calcular as variações, atualizar os gráficos e preparar comentários preliminares. A análise final costuma ser revisada pelo analista ou gestor.
+
+### Como um book pode ser estruturado?
+
+1. **Resumo executivo:** principais destaques do mês, como receita, margem, EBITDA, despesas e maiores desvios.
+2. **Receita e vendas:** comparação entre realizado, orçamento e ano anterior, com explicações sobre volume, preço, mix de produtos e canais.
+3. **DRE gerencial e margens:** receita líquida, custos, lucro bruto, despesas operacionais, EBITDA e resultado final, conforme o modelo de reporte.
+4. **Despesas e análise de desvios:** quais áreas gastaram mais ou menos que o previsto e quais explicações foram identificadas.
+5. **Próximos passos:** pontos de atenção, perguntas em aberto e ações a acompanhar.
+
+### Exemplo numérico: comentário do resultado
+
+Imagine os seguintes dados de receita líquida:
+
+| Indicador | Valor |
+|---|---:|
+| Orçamento de setembro | R$ 10 milhões |
+| Realizado de setembro | R$ 9 milhões |
+| Realizado em setembro do ano anterior | R$ 8,5 milhões |
+
+O realizado ficou R$ 1 milhão abaixo do orçamento, uma variação desfavorável de 10%.
+
+`(9 - 10) / 10 × 100 = -10%`
+
+Por outro lado, a receita cresceu aproximadamente 5,9% em relação ao ano anterior.
+
+`(9 - 8,5) / 8,5 × 100 ≈ 5,9%`
+
+Esses números contam duas histórias diferentes: a empresa cresceu em relação ao ano passado, mas não atingiu o que havia planejado para setembro.
+
+**Exemplo de comentário gerencial:**
+
+> A receita líquida de setembro totalizou R$ 9 milhões, ficando 10% abaixo do orçamento. Apesar do desvio negativo em relação ao planejado, houve crescimento de aproximadamente 5,9% na comparação com setembro do ano anterior. Para explicar o resultado, é necessário aprofundar a análise de volume de vendas, preço médio, mix de produtos e desempenho dos canais comerciais.
+
+O comentário não inventa uma causa para a diferença. Ele apresenta o fato e indica o que precisa ser investigado.
+
+### O que o estagiário ou assistente precisa saber fazer?
+
+- Atualizar as bases e os gráficos do book.
+- Conferir se os números apresentados batem com a base financeira oficial.
+- Calcular variações em reais e percentuais.
+- Comparar o mês, o acumulado do ano e, quando solicitado, os trimestres.
+- Identificar os maiores desvios e pedir esclarecimentos às áreas responsáveis.
+- Escrever comentários objetivos, separando fatos confirmados de hipóteses.
+
+**Aprendizado principal:** o book não é apenas uma apresentação de números. É uma ferramenta para explicar o desempenho financeiro da empresa.
+
 ## Budget
 
 ## PNL
