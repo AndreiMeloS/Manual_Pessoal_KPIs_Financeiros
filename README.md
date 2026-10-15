@@ -14,7 +14,14 @@
 - [5. KPIs de Valuation](#5-kpis-de-valuation)
 - [6. Como levar os KPIs para Power BI e Excel](#6-como-levar-os-kpis-para-power-bi-e-excel)
 - [7. Conceitos importantes](#7-conceitos-importantes)
-
+    7.1 [Book de resultados da companhia](#1-book-de-resultados-da-companhia)
+    7.2 [Budget x Forecast x Realizado e plano orçamentário com rateio](#2-budget-x-forecast-x-realizado)
+    7.3 [Real x Orçado x Ano Anterior](#3-real-x-orçado-x-ano-anterior)
+    7.4 [P&L ou PnL — Profit and Loss Statement](#4-pl-ou-pnl--profit-and-loss-statement)
+    7.5 [Fechamento mensal ou Closing](#5-fechamento-mensal-ou-closing)
+    7.6 [Processo de validar a base do ERP](#6-processo-de-validar-a-base-do-erp)
+    7.7 [Balancete x Base do ERP](#7-balancete-x-base-do-erp)
+    7.8 [Como todos esses conceitos se conectam no dia a dia](#8-como-todos-esses-conceitos-se-conectam-no-dia-a-dia)
 
 ---
 # Resumo dos KPIs desenvolvidos
@@ -948,6 +955,7 @@ O comentário não inventa uma causa para a diferença. Ele apresenta o fato e i
 
 **Aprendizado principal:** o book não é apenas uma apresentação de números. É uma ferramenta para explicar o desempenho financeiro da empresa.
 
+---
 ## 7.2. Budget x Forecast x Realizado
 
 Esses três conceitos estão conectados e formam uma das bases do trabalho de FP&A. Cada um responde a uma pergunta diferente.
@@ -1021,13 +1029,362 @@ Não se deve simplesmente alterar a planilha para fazê-la bater com o ERP. Prim
 
 **Aprendizado principal:** o Budget organiza o plano financeiro; o Forecast atualiza a expectativa; o Realizado mostra o resultado; e o rateio permite visualizar a responsabilidade por custos e despesas.
 
-## PNL
+---
 
-## Fechamento / Closing
+## 7.3. Real x Orçado x Ano Anterior
 
-## Validar base do ERP
+Essa comparação é uma das formas mais comuns de analisar o desempenho financeiro. Embora pareça semelhante à comparação entre Budget, Forecast e Realizado, aqui o foco é entender as diferenças entre o que aconteceu, o que havia sido planejado e o que aconteceu no passado.
 
-## Comparar balancetes x ERP base
+- **Realizado:** o que aconteceu no período atual?
+- **Orçado:** o que a empresa esperava que acontecesse?
+- **Ano anterior:** o que aconteceu no período equivalente do ano passado?
+
+### Exemplo prático: receita líquida
+
+Imagine que você esteja preparando o relatório de setembro.
+
+| Indicador | Valor |
+|---|---:|
+| Realizado em setembro | R$ 9 milhões |
+| Orçado para setembro | R$ 10 milhões |
+| Realizado em setembro do ano anterior | R$ 8,5 milhões |
+
+A primeira comparação mostra que a empresa ficou abaixo do plano. A segunda mostra que, apesar de não atingir a meta, houve crescimento em relação ao ano anterior.
+
+| Comparação | Variação em R$ | Variação em % |
+|---|---:|---:|
+| Realizado x Orçado | -R$ 1 milhão | -10,0% |
+| Realizado x Ano anterior | +R$ 500 mil | +5,9% |
+
+A fórmula geral para calcular a variação percentual é:
+
+`Variação % = (Realizado - Referência) / Referência × 100`
+
+A referência pode ser o orçamento ou o resultado do ano anterior, dependendo da comparação que você deseja fazer.
+
+### Como interpretar o resultado?
+
+Se a receita cresceu 5,9% em relação ao ano anterior, isso não significa necessariamente que a empresa está indo bem. Ela pode ter planejado crescer 20%, por exemplo.
+
+Da mesma forma, ficar abaixo do orçamento não significa automaticamente que o desempenho foi ruim em todos os aspectos. A empresa pode ter vendido menos, mas melhorado sua margem ou reduzido despesas de forma relevante.
+
+É por isso que a comparação precisa ser acompanhada de uma análise das causas.
+
+Em uma companhia de relógios, você poderia investigar:
+
+- Volume de unidades vendidas;
+- Preço médio;
+- Mix de marcas e produtos;
+- Desempenho dos canais de venda;
+- Descontos comerciais;
+- Sazonalidade;
+- Lançamentos ou campanhas;
+- Eventuais mudanças no calendário de vendas.
+
+### Variação percentual x pontos percentuais
+
+Esse cuidado é importante quando você estiver analisando margens.
+
+Imagine que a margem bruta tenha sido de 40% no ano anterior e 36% no ano atual.
+
+A redução foi de **4 pontos percentuais (p.p.)**, porque `36% - 40% = -4 p.p.`.
+
+Já a queda relativa da margem foi de 10%:
+
+`(36% - 40%) / 40% × 100 = -10%`
+
+Os dois números estão corretos, mas representam coisas diferentes.
+
+### Como registrar esse aprendizado
+
+Na análise de resultados, não devo olhar apenas para o valor realizado. Preciso compará-lo com o orçamento e com o mesmo período do ano anterior, pois cada referência mostra uma informação diferente. O orçamento indica se a empresa cumpriu o que havia planejado; o ano anterior ajuda a entender a evolução do negócio.
+
+Depois de calcular a variação em reais e em percentual, devo investigar as causas dos desvios relevantes. O objetivo não é apenas dizer que a receita caiu ou que a despesa aumentou, mas entender o que provocou essa mudança e qual foi o impacto no resultado financeiro.
+
+**Aprendizado principal:** comparar números identifica o desvio; analisar as causas transforma esse desvio em informação útil para a gestão.
+
+---
+
+## 7.4. P&L ou PnL — Profit and Loss Statement
+
+### O que é?
+
+P&L é a abreviação de *Profit and Loss Statement*, equivalente, em termos gerais, à demonstração de resultados. No Brasil, é comum usar a sigla **DRE (Demonstração do Resultado do Exercício)**.
+
+Em FP&A, o termo também pode se referir à visão gerencial de receitas, custos e despesas utilizada para analisar o desempenho de um mês, de uma unidade de negócio, de uma marca ou da companhia como um todo.
+
+A P&L gerencial pode ter agrupamentos e indicadores adicionais aos da DRE contábil. Por isso, é importante conhecer as regras de classificação e reconciliação da empresa.
+
+### Como ler uma P&L na prática?
+
+Imagine que uma companhia tenha apresentado o seguinte resultado mensal:
+
+| Linha da P&L | Valor ilustrativo |
+|---|---:|
+| Receita bruta | R$ 12.000.000 |
+| (-) Deduções e impostos sobre vendas | R$ 3.000.000 |
+| **Receita líquida** | **R$ 9.000.000** |
+| (-) Custo dos produtos vendidos | R$ 4.950.000 |
+| **Lucro bruto** | **R$ 4.050.000** |
+| (-) Despesas operacionais | R$ 2.700.000 |
+| **Resultado operacional antes de outros itens** | **R$ 1.350.000** |
+
+Os valores são hipotéticos, e a estrutura exata depende do modelo gerencial utilizado.
+
+O primeiro cuidado é entender que **receita bruta não é a mesma coisa que receita líquida**, e que faturamento não representa necessariamente dinheiro recebido no caixa.
+
+As deduções e os impostos aplicáveis reduzem a receita bruta até chegar à receita líquida. Depois, os custos associados aos produtos vendidos são deduzidos para calcular o lucro bruto.
+
+As despesas operacionais, por sua vez, podem incluir despesas comerciais, administrativas, marketing, tecnologia, pessoal e outras despesas da operação.
+
+### Como o FP&A usa a P&L?
+
+A P&L permite responder perguntas como:
+
+- A empresa vendeu mais, mas também gastou mais?
+- A margem bruta melhorou?
+- O crescimento das despesas operacionais foi maior que o crescimento da receita?
+- Qual área está pressionando o resultado?
+- Qual marca ou canal apresenta melhor rentabilidade?
+
+Considere que a receita líquida seja de R$ 9 milhões e o lucro bruto de R$ 4,05 milhões.
+
+A margem bruta é:
+
+`Margem Bruta = Lucro Bruto / Receita Líquida × 100`
+
+`4,05 / 9 × 100 = 45%`
+
+Isso significa que, a cada R$ 100 de receita líquida, restam R$ 45 após a dedução do custo dos produtos vendidos, antes das despesas operacionais e dos demais itens posteriores da demonstração.
+
+### Exemplo: a receita cresceu, mas a margem bruta caiu
+
+Imagine que no mês anterior a receita líquida fosse de R$ 8 milhões e o lucro bruto de R$ 3,76 milhões. A margem bruta era de 47%.
+
+No mês atual, a receita líquida aumentou para R$ 9 milhões, mas a margem bruta caiu para 45%.
+
+A empresa cresceu em receita, porém reteve uma parcela menor dessa receita após os custos dos produtos vendidos.
+
+O assistente pode organizar a comparação por marca, produto ou canal e destacar as linhas que mais contribuíram para a variação. O analista pode aprofundar a investigação em descontos, preço de compra, frete, mix de produtos e outros fatores relevantes.
+
+A causa, entretanto, precisa ser confirmada pelos dados. Não é correto concluir que a margem caiu por causa de descontos apenas porque essa é uma hipótese plausível.
+
+### EBITDA: onde entra?
+
+O EBITDA é um indicador de desempenho operacional que, em termos gerais, parte do resultado operacional e exclui juros, tributos sobre o lucro e depreciação e amortização, conforme a metodologia adotada.
+
+Em uma P&L gerencial, ele costuma aparecer depois das despesas operacionais e antes de itens financeiros, tributos sobre o lucro e depreciação e amortização, mas a apresentação exata varia.
+
+Não confunda EBITDA com lucro líquido ou fluxo de caixa. Ele não representa, sozinho, o dinheiro efetivamente disponível na conta bancária.
+
+**Aprendizado principal:** a P&L organiza a formação do resultado. Para trabalhar bem com ela, é preciso entender cada linha, sua classificação e como as mudanças em receitas, custos e despesas afetam as margens.
+
+---
+
+## 7.5. Fechamento mensal ou Closing
+
+### O que é o closing?
+
+O *closing* é o processo de fechamento contábil e financeiro de um período, geralmente mensal. É quando a empresa organiza, registra e valida as informações referentes ao mês para conseguir apresentar um resultado confiável.
+
+Em termos simples, a empresa precisa garantir que os acontecimentos de setembro estejam corretamente registrados em setembro, que as despesas e receitas estejam classificadas de forma adequada e que os relatórios financeiros reflitam o que realmente aconteceu.
+
+O fechamento normalmente envolve Contabilidade, Controladoria, Financeiro, Fiscal, áreas operacionais e FP&A. As responsabilidades variam conforme a estrutura da companhia.
+
+Uma distinção importante: a Contabilidade é responsável pelos registros contábeis e pelos procedimentos de fechamento sob sua alçada; FP&A utiliza os números validados para analisar o desempenho, explicar desvios e atualizar as projeções.
+
+### Como funciona o closing na prática?
+
+Imagine que estamos no início de outubro e a empresa precisa fechar o resultado de setembro.
+
+1. **Coleta dos dados do período:** a equipe reúne lançamentos de receitas, despesas, custos, notas fiscais, folha de pagamento, movimentações de estoque e demais informações relevantes.
+2. **Conferência dos registros:** a Contabilidade e as áreas responsáveis verificam se os lançamentos foram registrados corretamente, se pertencem ao período adequado e se existem documentos ou informações pendentes.
+3. **Ajustes e conciliações:** são avaliados itens como despesas incorridas ainda não faturadas, provisões, despesas antecipadas e saldos contábeis. Os ajustes necessários são realizados pelos responsáveis autorizados.
+4. **Validação do resultado:** são gerados relatórios contábeis, incluindo o balancete e a DRE, e feitas verificações de consistência dos saldos e movimentações.
+5. **Análise de resultados pelo FP&A:** com os dados oficiais disponíveis, FP&A compara o realizado com o orçamento, o forecast e o ano anterior, investigando os desvios relevantes.
+6. **Reporte gerencial:** os resultados são consolidados em planilhas, dashboards e no book de resultados para apresentação à liderança.
+
+### Exemplo: despesa de setembro paga em outubro
+
+Imagine que a empresa contratou uma agência de marketing para prestar serviços durante setembro, no valor de R$ 20 mil. A nota fiscal só será recebida em outubro, e o pagamento ocorrerá posteriormente.
+
+Se o serviço foi efetivamente prestado em setembro e os critérios contábeis aplicáveis forem atendidos, a despesa deverá ser reconhecida no período correto, mesmo que o pagamento aconteça depois.
+
+Esse é o conceito de **competência contábil**: reconhecer receitas e despesas no período a que se referem, em vez de considerar apenas a data em que o dinheiro entra ou sai do caixa.
+
+Se essa despesa não for reconhecida no mês adequado, o resultado de setembro poderá ficar artificialmente melhor, enquanto o de outubro poderá ficar artificialmente pior.
+
+O tratamento exato depende dos documentos, das condições contratuais e das regras contábeis aplicáveis.
+
+### O que o estagiário ou assistente pode fazer durante o closing?
+
+- Atualizar controles de fechamento e acompanhar prazos.
+- Organizar as bases extraídas do ERP.
+- Conferir lançamentos, classificações e centros de custo.
+- Identificar despesas com valores incomuns ou movimentos fora do padrão.
+- Comparar saldos com o mês anterior e com o orçamento.
+- Documentar diferenças e solicitar esclarecimentos às áreas responsáveis.
+- Preparar relatórios preliminares para revisão do analista.
+
+O profissional júnior não precisa tomar sozinho decisões sobre ajustes contábeis. O importante é identificar inconsistências, reunir evidências, entender a causa e encaminhar o problema ao responsável.
+
+**Aprendizado principal:** o closing transforma os registros do período em números oficiais e confiáveis. O trabalho de FP&A depende dessa qualidade para que as análises e projeções façam sentido.
+
+---
+
+## 7.6. Processo de validar a base do ERP
+
+### O que significa validar uma base?
+
+O ERP (*Enterprise Resource Planning*) é o sistema integrado que registra e organiza diferentes processos da empresa. No contexto financeiro, pode conter lançamentos contábeis, fornecedores, notas fiscais, centros de custo, pagamentos, compras e outras informações.
+
+Uma base extraída do ERP não deve ser considerada automaticamente correta só porque veio do sistema. Ela pode estar incompleta, conter filtros inadequados, apresentar classificações incorretas ou ter sido extraída antes da conclusão do fechamento.
+
+**Validar a base significa verificar se os dados estão completos, coerentes, corretamente classificados e reconciliados com as fontes oficiais antes de utilizá-los em relatórios e análises.**
+
+### Exemplo prático
+
+Imagine que você precise atualizar a planilha de despesas administrativas de setembro. Você extrai do ERP uma base com as seguintes informações:
+
+| Conta | Centro de custo | Histórico | Valor |
+|---|---|---|---:|
+| 6101 | Marketing | Agência digital | R$ 15.000 |
+| 6205 | Financeiro | Licença de software | R$ 4.000 |
+| 6101 | Marketing | Agência digital | R$ 15.000 |
+| 6302 | Administrativo | Material de escritório | R$ 2.500 |
+
+O total extraído é de R$ 36.500. Porém, você percebe que duas linhas parecem representar a mesma despesa de R$ 15 mil.
+
+É tentador excluir uma delas imediatamente. Mas esse seria um erro de procedimento: elas podem ser dois lançamentos legítimos ou duas linhas da mesma transação detalhada na extração.
+
+A primeira tarefa é investigar se existe duplicidade real, conferindo identificadores do lançamento, documento fiscal, fornecedor, data, valor e histórico.
+
+Depois, você deve validar o restante da base.
+
+### Checklist de validação
+
+- [ ] **Período correto:** a extração contém somente o mês e o intervalo de datas desejados?
+- [ ] **Escopo completo:** foram incluídas todas as empresas, filiais, contas e centros de custo necessários?
+- [ ] **Integridade dos dados:** existem linhas duplicadas, campos vazios, valores com formato incorreto ou registros inesperados?
+- [ ] **Classificação:** as contas contábeis e os centros de custo estão mapeados corretamente para a visão gerencial?
+- [ ] **Conciliação de valores:** os totais batem com o relatório de controle ou com o balancete oficial do mesmo período e escopo?
+- [ ] **Versão da base:** a extração corresponde à versão validada do fechamento, e não a uma base preliminar?
+- [ ] **Rastreabilidade:** consigo localizar a origem de cada valor e explicar eventuais diferenças?
+
+### Outro exemplo: erro de classificação
+
+Imagine que a conta contábil de uma despesa com software esteja associada ao centro de custo de Marketing, mas o orçamento prevê esse gasto no Financeiro.
+
+Ao comparar o realizado com o orçamento, Marketing parecerá ter gasto mais do que deveria e Financeiro parecerá ter gasto menos.
+
+O total da companhia pode estar correto, mas a análise por departamento estará distorcida.
+
+Nesse caso, é preciso conferir o documento, o responsável pelo serviço e as regras de classificação. Se houver um erro, a correção deve ser tratada com a área responsável, conforme o procedimento interno.
+
+Não se deve mudar o centro de custo apenas para eliminar uma variação orçamentária.
+
+### Como validar tecnicamente no Excel?
+
+- **SOMASES:** consolidar despesas por conta, centro de custo e mês.
+- **CONT.SES:** identificar possíveis duplicidades usando combinações de campos.
+- **PROCV:** buscar a descrição de contas ou centros de custo em uma tabela de referência.
+- **Tabela dinâmica:** comparar totais por departamento, conta e período.
+- **Power Query:** padronizar formatos, combinar arquivos e automatizar etapas repetitivas.
+
+Um controle adicional é comparar o total da base com o total do relatório oficial do ERP ou do balancete, respeitando exatamente o mesmo período, as mesmas entidades, a mesma moeda e o mesmo escopo.
+
+Se houver diferença, você deve procurar a causa antes de utilizar os números.
+
+**Aprendizado principal:** uma análise financeira só é confiável quando a base de dados é confiável. A validação evita que erros de extração, classificação ou consolidação sejam reproduzidos em dashboards e apresentações.
+
+---
+
+## 7.7. Balancete x Base do ERP
+
+Esse é um dos pontos mais importantes para quem está começando em FP&A.
+
+### Primeiro, entenda a diferença
+
+O **balancete** é um relatório contábil que apresenta os saldos das contas contábeis em determinado período, geralmente com saldos anteriores, movimentações de débito e crédito e saldos finais, conforme o modelo do relatório.
+
+Já a **base do ERP** é um conjunto de registros extraídos do sistema. Pode conter lançamentos detalhados, documentos, centros de custo, fornecedores, datas, valores e outras dimensões analíticas.
+
+Portanto, não são necessariamente dois relatórios equivalentes. Uma base do ERP pode conter os lançamentos que alimentam os saldos do balancete, mas também pode incluir informações operacionais que não aparecem diretamente nele.
+
+| Fonte | O que mostra | Pergunta principal |
+|---|---|---|
+| **Balancete** | Visão contábil consolidada por conta, com saldos e movimentações do período. | Os saldos contábeis estão corretos e conciliados? |
+| **Base detalhada do ERP** | Registros que permitem investigar documentos, lançamentos, datas, departamentos e outras dimensões. | Quais registros explicam o saldo e como eles estão classificados? |
+
+### Exemplo numérico: despesas administrativas
+
+Imagine que o balancete de setembro apresente um saldo de R$ 100 mil na conta contábil de despesas administrativas, considerando o mesmo critério de movimentação e o mesmo escopo da análise.
+
+Você extrai a base do ERP e consolida os lançamentos que deveriam compor essa conta. O resultado da planilha é R$ 96 mil.
+
+Existe uma diferença de R$ 4 mil.
+
+| Verificação | Valor |
+|---|---:|
+| Saldo conforme balancete | R$ 100.000 |
+| Total conforme base extraída | R$ 96.000 |
+| **Diferença a investigar** | **R$ 4.000** |
+
+Não significa automaticamente que a Contabilidade errou ou que a base do ERP está errada. Significa que a conciliação ainda não está explicada.
+
+Você precisa investigar, por exemplo:
+
+- A base foi extraída com todas as contas necessárias?
+- O período está correto?
+- Há lançamentos feitos diretamente na contabilidade que não aparecem no relatório operacional?
+- Existem ajustes manuais ou reclassificações?
+- A base contempla todas as empresas e filiais?
+- O balancete mostra o saldo acumulado, enquanto a base mostra apenas a movimentação do mês?
+- Foram utilizados os mesmos critérios de sinal, moeda e classificação?
+
+Essa última questão é especialmente importante: saldo contábil, saldo acumulado e movimentação mensal não são necessariamente a mesma coisa.
+
+### Como fazer a conciliação corretamente
+
+1. **Defina o escopo:** mês, empresa, contas contábeis, centros de custo e tipo de saldo que será comparado.
+2. **Extraia as fontes oficiais:** balancete e base detalhada do ERP, preferencialmente após a validação do fechamento.
+3. **Padronize as informações:** códigos de conta, datas, sinais dos valores e demais campos utilizados na comparação.
+4. **Consolide a base:** some os lançamentos por conta e, quando necessário, por centro de custo ou outra dimensão.
+5. **Compare os totais:** identifique quais contas apresentam diferenças e priorize as materialmente relevantes.
+6. **Investigue e documente:** procure os registros que explicam cada diferença, registre a causa e encaminhe eventuais ajustes ao responsável.
+
+### O que é materialidade nessa rotina?
+
+Materialidade é a importância de uma diferença para a análise ou para a decisão. Um desvio de R$ 50 pode não exigir a mesma investigação que um desvio de R$ 50 mil, dependendo do porte da empresa, da natureza da conta e dos critérios internos de controle.
+
+Porém, valor pequeno não significa que uma diferença possa ser ignorada automaticamente. Um erro recorrente, uma classificação inadequada ou um problema de integridade pode ser relevante mesmo quando o valor individual é baixo.
+
+O profissional deve seguir os limites e os procedimentos definidos pela empresa, sem inventar um limite de tolerância por conta própria.
+
+### Uma observação contábil importante
+
+O fato de o balancete estar correto não garante, por si só, que todas as dimensões gerenciais estejam corretas. Uma despesa pode estar registrada na conta contábil certa, mas vinculada ao centro de custo errado.
+
+Da mesma forma, uma base operacional pode estar correta para determinada finalidade e não conter todos os registros necessários para reconciliar o balancete.
+
+Por isso, a conciliação precisa considerar a finalidade de cada fonte, a abrangência do relatório e as regras de contabilização e classificação.
+
+**Aprendizado principal:** o balancete ajuda a validar os saldos contábeis; a base do ERP ajuda a entender a composição desses saldos. A conciliação conecta as duas visões e permite utilizar os dados com segurança no FP&A.
+
+---
+
+## 7.8. Como todos esses conceitos se conectam no dia a dia
+
+Para fixar o aprendizado, imagine um único ciclo mensal de FP&A em uma empresa como o Grupo Technos.
+
+1. **Closing:** a Contabilidade conclui o fechamento e valida os registros do período.
+2. **Validação das bases:** o time confere a extração do ERP e concilia os totais com o balancete.
+3. **Atualização da P&L:** o realizado é organizado nas linhas gerenciais de receitas, custos e despesas.
+4. **Análise de variações:** o realizado é comparado com Budget, Forecast e ano anterior.
+5. **Book de resultados:** os números e suas explicações são organizados para apoiar decisões da liderança.
+6. **Revisão do Forecast:** os resultados e as novas informações são usados para revisar as projeções dos meses futuros.
+
+Esse ciclo é recorrente: o fechamento fornece os números efetivos; a análise mostra o que mudou; e o forecast utiliza essas informações para atualizar a expectativa de resultado.
 
 
 ---
