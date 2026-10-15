@@ -14,32 +14,15 @@
 - [5. KPIs de Valuation](#5-kpis-de-valuation)
 - [6. Como levar os KPIs para Power BI e Excel](#6-como-levar-os-kpis-para-power-bi-e-excel)
 - [7. Conceitos importantes](#7-conceitos-importantes)
-    - 7.1 [Book de resultados da companhia](#7.1.-book-de-resultados-da-companhia)
-    - 7.2 [Budget x Forecast x Realizado e plano orçamentário com rateio](#2-budget-x-forecast-x-realizado)
-    - 7.3 [Real x Orçado x Ano Anterior](#3-real-x-orçado-x-ano-anterior)
-    - 7.4 [P&L ou PnL — Profit and Loss Statement](#4-pl-ou-pnl--profit-and-loss-statement)
-    - 7.5 [Fechamento mensal ou Closing](#5-fechamento-mensal-ou-closing)
-    - 7.6 [Processo de validar a base do ERP](#6-processo-de-validar-a-base-do-erp)
-    - 7.7 [Balancete x Base do ERP](#7-balancete-x-base-do-erp)
-    - 7.8 [Como todos esses conceitos se conectam no dia a dia](#8-como-todos-esses-conceitos-se-conectam-no-dia-a-dia)
+    - [7.1 Book de resultados da companhia](#7.1-book-de-resultados-da-companhia)
+    - [7.2 Budget x Forecast x Realizado e plano orçamentário com rateio](#2-budget-x-forecast-x-realizado)
+    - [7.3 Real x Orçado x Ano Anterior](#3-real-x-orçado-x-ano-anterior)
+    - [7.4 P&L ou PnL — Profit and Loss Statement](#4-pl-ou-pnl--profit-and-loss-statement)
+    - [7.5 [Fechamento mensal ou Closing](#5-fechamento-mensal-ou-closing)
+    - [7.6 Processo de validar a base do ERP](#6-processo-de-validar-a-base-do-erp)
+    - [7.7 Balancete x Base do ERP](#7-balancete-x-base-do-erp)
+    - [7.8 Como todos esses conceitos se conectam no dia a dia](#8-como-todos-esses-conceitos-se-conectam-no-dia-a-dia)
 
-- Introdução aos KPIs
-- Perguntas Iniciais
-- 1. KPIs de Rentabilidade
-- 2. KPIs de Liquidez
-- 3. KPIs de Eficiência
-- 4. KPIs de Alavancagem
-- 5. KPIs de Valuation
-- 6. Como levar os KPIs para Power BI e Excel
-- 7. Conceitos importantes
-    - 7.1 Book de resultados da companhia
-    - 7.2 Budget x Forecast x Realizado e plano orçamentário com rateio
-    - 7.3 Real x Orçado x Ano Anterior
-    - 7.4 P&L ou PnL — Profit and Loss Statement
-    - 7.5 Fechamento mensal ou Closing
-    - 7.6 Processo de validar a base do ERP
-    - 7.7 Balancete x Base do ERP
-    - 7.8 Como todos esses conceitos se conectam no dia a dia
 
 
 
@@ -908,7 +891,7 @@ Ferramentas principais:
 ---
 # 7. Conceitos importantes
 
-## 7.1. Book de resultados da companhia
+## 7.1 Book de resultados da companhia
 
 ### O que é?
 
@@ -976,7 +959,7 @@ O comentário não inventa uma causa para a diferença. Ele apresenta o fato e i
 **Aprendizado principal:** o book não é apenas uma apresentação de números. É uma ferramenta para explicar o desempenho financeiro da empresa.
 
 ---
-## 7.2. Budget x Forecast x Realizado
+## 7.2 Budget x Forecast x Realizado
 
 Esses três conceitos estão conectados e formam uma das bases do trabalho de FP&A. Cada um responde a uma pergunta diferente.
 
