@@ -14,7 +14,7 @@
 - [5. KPIs de Valuation](#5-kpis-de-valuation)
 - [6. Como levar os KPIs para Power BI e Excel](#6-como-levar-os-kpis-para-power-bi-e-excel)
 - [7. Conceitos importantes](#7-conceitos-importantes)
-    - 7.1 [Book de resultados da companhia](#1-book-de-resultados-da-companhia)
+    - 7.1 [Book de resultados da companhia](#7.1.-book-de-resultados-da-companhia)
     - 7.2 [Budget x Forecast x Realizado e plano orçamentário com rateio](#2-budget-x-forecast-x-realizado)
     - 7.3 [Real x Orçado x Ano Anterior](#3-real-x-orçado-x-ano-anterior)
     - 7.4 [P&L ou PnL — Profit and Loss Statement](#4-pl-ou-pnl--profit-and-loss-statement)
